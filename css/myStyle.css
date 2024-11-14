@@ -4,4 +4,17 @@
     color: white;
     padding: 20px;
   }
+  .carousel-inner img {
+    max-height: 500px; /* imposta una dimensione massima in altezza */
+    object-fit: cover; /* ritaglia l'immagine per riempire l'area */
+  }
+  
+  
+  
+  
+  .carousel {
+    margin: auto;
+    max-width: 800px; /* imposta una larghezza massima del carosello */
+    overflow: hidden;
+  }
   
